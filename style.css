@@ -1,0 +1,38 @@
+html, body {
+    font-family: Helvetica,Arial. sans-serif;
+  margin: 0;
+  padding: 0;
+    background: lightgrey;
+}
+canvas {
+  display: block;
+}
+nav{
+    padding:1rem
+}
+
+a{
+    text-decoration: none;
+}
+
+a#yop{
+  font-weight:bold;
+  font-family:helvetica,Arial,sans-serif;
+  background:purple;
+    color:white;
+   position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 30px black;
+    padding:1rem 2rem;
+    border-radius: 10px;
+}
+
+a#yop:hover{
+    background:yellow;
+    color:purple;
+    transition:all ease 1s;
+    top:51%;
+    box-shadow:1px 1px 10px purple;
+}
